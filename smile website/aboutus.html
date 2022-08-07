@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+    <style>
+       
+        body{
+    margin:0;
+    padding:0;
+    font-family: neo;
+   
+   
+}
+
+@font-face{
+    src: url("fonts/neo.ttf");
+    font-family: neo;
+    
+}
+
+
+.outline{
+    background-color: #E24E42;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.outline h1{
+    color: white;
+}
+
+
+  h1{
+      text-align: center;
+      color: black;
+      font-family: neo;
+      font-weight: bolder;
+      font-size: 70px;
+  }
+  
+  .box1{
+      
+      text-align: left;
+      float: left;
+      background-color: #DFDCE3;
+      
+  }
+  
+  .box1 h1{
+      padding-left: 100px;
+      padding-right: 100px;
+      text-align: left;
+      float: left;
+      background-color: #DFDCE3;
+  }
+ 
+  .box1 p{
+      font-family: 'Roboto', sans-serif;
+      font-size: 25px;
+       color:black;
+       padding-left: 100px;
+      padding-right: 100px;
+      text-align: left;
+      float: left;
+      background-color: #DFDCE3;
+  }
+  
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 1600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+        
+    }
+
+    .navbar-links ul li {
+        text-align: left;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+       
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+  
+  
+
+    </style>
+    <body>
+        
+        <nav class="navbar">
+        <div class="brand-title">Smile</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="index.php">Home</a></li>
+                
+                <li><a href="helpline.html">Emergency helpline numbers</a></li>
+                <li><a href="faqs.html">How do we work</a></li>
+                <li><a href="challenge.html">15 Days Mental Health challenge</a></li>
+                <li><a href="counselor.html">Consult to our Counsellor</a></li>
+                <li><a href="boost.html">Boost your mental health</a></li>
+                <li><a href="chatbot.html">Chat with us</a></li>
+                <li><a href="login.php">Admin login</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+          </ul>
+        </div>
+        </nav>
+        <div class="outline">
+        <h1>About Us</h1>
+        </div>
+         <div class="box1">
+             <br><!-- comment -->
+             <br>
+            
+                <h1>What is Smile?</h1>
+         
+        
+               
+                <p>
+                    Mental health facilities in colleges are still quite insufficient owing to the limited number of services being offered as well as, the inadequate number of trained and supervised professionals.Through our project, Smile, we are willing to take lead in addressing the psychosocial needs of individuals across various groups and has adopt diverse strategies and solutions to address these needs. Smile is such step taken in the direction of mental health work for SAKEC.
+                </p>
+                <p>
+                   Smile is a non-profitable call based counselling service run by SAKEC, that offers free telephone counseling services, to students who are in emotional and psychological distress, across age, language, gender, sexual orientation and issues, through a team of qualified and trained mental health professional.
+                </p>
+                <p>
+                    
+                    Hitakshi Mam will be counseling the students and will be helping them in overcoming their struggles with mental health while ensuring that their information remains completely confidential. 
+                    
+                    
+                
+                </p>
+                
+                <br>
+                <br>
+                <br>
+                
+            </div>
+            
+        </div>
+       
+    </body>
+</html>

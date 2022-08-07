@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+        
+
+        <script src="script.js" defer></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+        body{
+    margin:0;
+    padding:0;
+    font-family: neo;
+    background-color: #DFDCE3;
+   
+}
+
+@font-face{
+    src: url("fonts/neo.ttf");
+    font-family: neo;
+    
+}
+
+
+.outline{
+    background-color: #E24E42;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.outline h1{
+    color: white;
+}
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 1600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+        
+    }
+
+    .navbar-links ul li {
+        text-align: left;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+       
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+  h1{
+      text-align: center;
+      color: black;
+      font-family: neo;
+      font-weight: bolder;
+      font-size: 70px;
+  }
+          .thumbnail{
+            height: auto;
+            padding-top: 20px;
+            margin-bottom: 20px;
+            background-color: #DFDCE3;
+            text-align: center;
+            
+          }
+          
+          .thumbnail h2{
+              font-family: neo;
+              color: black;
+              font-size: 40px;
+          }
+          .thumbnail p{
+              font-family: 'Roboto', sans-serif;
+              color: black;
+              font-size: 25px;
+          }
+    </style>
+    
+        <nav class="navbar">
+        <div class="brand-title">Smile</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="index.php">Home</a></li>
+                
+                <li><a href="helpline.html">Emergency helpline numbers</a></li>
+                <li><a href="faqs.html">How do we work</a></li>
+                <li><a href="challenge.html">15 Days Mental Health challenge</a></li>
+                <li><a href="counselor.html">Consult to our Counsellor</a></li>
+                <li><a href="boost.html">Boost your mental health</a></li>
+                <li><a href="chatbot.html">Chat with us</a></li>
+                <li><a href="login.php">Admin login</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+          </ul>
+        </div>
+        </nav>
+        <div class="outline">
+        <h1>Emergency helpline numbers</h1>
+        </div>
+        <div id="help">
+      
+        <div class="thumbnail">
+            <h2>AASRA</h2>
+            <p>HOTLINE: 24x7 Helpline: <a href="tel91-22-27546669">91-22-27546669</a>
+        <br>
+        <a href="http://www.aasra.info/">http://www.aasra.info</a> </p>
+         
+         <div class="thumbnail">
+            <h2>Sneha Suicide Prevention Centre</h2>
+            <p> HOTLINE: 24x7 Helpline: <a href="tel91-44-24640050">91-44-24640050</a>
+        <br>
+        <a href="https://www.snehaindia.org">https://www.snehaindia.org</a></p>
+        
+         <div class="thumbnail">
+            <h2>iCALL</h2>
+        <p>HOTLINE: 24x7 Helpline: <a href="tel91-9152987821">91-9152987821</a>
+        <br>
+        <a href="http://icallhelpline.org">http://icallhelpline.org</a></p>
+        </div>
+         <br>
+       
+    </div>
+    </div>
+
+    
+</html>

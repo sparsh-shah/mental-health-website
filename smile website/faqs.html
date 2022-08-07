@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+    <style>
+       
+        body{
+    margin:0;
+    padding:0;
+    font-family: neo;
+   
+   
+}
+
+@font-face{
+    src: url("fonts/neo.ttf");
+    font-family: neo;
+    
+}
+
+
+.outline{
+    background-color: #E24E42;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.outline h1{
+    color: white;
+}
+
+
+  h1{
+      text-align: center;
+      color: black;
+      font-family: neo;
+      font-weight: bolder;
+      font-size: 70px;
+  }
+  
+  .box1{
+      
+      text-align: left;
+      float: left;
+      background-color: #DFDCE3;
+      
+  }
+  
+  .box1 h1{
+      padding-left: 100px;
+      padding-right: 100px;
+      text-align: left;
+      float: left;
+      background-color: #DFDCE3;
+  }
+ 
+  .box1 p{
+      font-family: 'Roboto', sans-serif;
+      font-size: 25px;
+       color:black;
+       padding-left: 100px;
+      padding-right: 100px;
+      text-align: left;
+      float: left;
+      background-color: #DFDCE3;
+  }
+  
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 1600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+        
+    }
+
+    .navbar-links ul li {
+        text-align: left;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+       
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+  
+  
+
+    </style>
+    <body>
+        
+        <nav class="navbar">
+        <div class="brand-title">Smile</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="index.php">Home</a></li>
+                
+                <li><a href="helpline.html">Emergency helpline numbers</a></li>
+                <li><a href="faqs.html">How do we work</a></li>
+                <li><a href="challenge.html">15 Days Mental Health challenge</a></li>
+                <li><a href="counselor.html">Consult to our Counsellor</a></li>
+                <li><a href="boost.html">Boost your mental health</a></li>
+                <li><a href="chatbot.html">Chat with us</a></li>
+                <li><a href="login.php">Admin login</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+          </ul>
+        </div>
+        </nav>
+        <div class="outline">
+        <h1>How do we work?</h1>
+        </div>
+         <div class="box1">
+             <br><!-- comment -->
+             <br>
+            
+                <h1>Phone counselling</h1>
+                <p>Phone counselling offers the same services as face to face counselling except that it is conducted over the phone. In the past this medium was predominantly used for crisis intervention. However, in recent times there seems to be a much greater openness to this form of counseling even in non-crisis situations. Although, face to face counseling still remains the more popular form of counseling, telephone counseling offers certain advantages that can make it a more suitable option for some.</p>
+                <p>Smile is a free counselling helpline that is run by trained and qualified counselor Hitakshi Mam.We understand that it is not easy to reach out and share your concerns with someone over the phone, especially when you are not familiar with them. We appreciate the effort it must have taken you to take this first step towards growth and progress and understand that there may be some apprehensions about sharing sensitive information and whether it is safe to do so. The effectiveness of the counselling process depends heavily on the trust that exists between the counselor and the caller. Any information you share remains completely confidential between you and the counselor at Smile, except for when there is a risk of harm to yourself or to others.</p>
+                <p>The student suffering from any mental health problem can go to this link and fill his details. As soon as the details are received by the counselor, she would schedule an appointment with the student. The appointment time would be shared with the student via his/her SAKEC email id. The student would get a call by the counselor at that given appointment time to freely discuss and solve the problem that the student is facing.</p>
+                </p>
+                <br>
+                <br>
+                <br>
+                
+            </div>
+            
+        </div>
+       
+    </body>
+</html>
+
+                

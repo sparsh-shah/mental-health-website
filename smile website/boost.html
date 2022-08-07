@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+    
+    <style>
+        body{
+    margin:0;
+    padding:0;
+    font-family: neo;
+    background-color: #DFDCE3;
+   
+}
+
+@font-face{
+    src: url("fonts/neo.ttf");
+    font-family: neo;
+    
+}
+
+
+.outline{
+    background-color: #E24E42;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.outline h1{
+    color: white;
+}
+
+
+  h1{
+      text-align: center;
+      color: black;
+      font-family: neo;
+      font-weight: bolder;
+      font-size: 70px;
+  }
+  .tips{
+            height: auto;
+            padding: 2px;
+            margin-bottom: 20px;
+            background-color: #DFDCE3;
+            text-align: center;
+            color:#666;
+            
+            margin:18px;
+            
+        }
+        .tips h2{
+            color: black;
+            font-size: 40px;
+            text-align: center;
+        }
+        .tips p{
+            font-family: 'Roboto', sans-serif;
+            font-size: 25px;
+            padding-left: 100px;
+            padding-right: 100px;
+            text-align: center;
+            color: black;
+        }
+        
+        .navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 1600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+        
+    }
+
+    .navbar-links ul li {
+        text-align: left;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+       
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+    </style>
+    <body>
+        <nav class="navbar">
+        <div class="brand-title">Smile</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="index.php">Home</a></li>
+                
+                <li><a href="helpline.html">Emergency helpline numbers</a></li>
+                <li><a href="faqs.html">How do we work</a></li>
+                <li><a href="challenge.html">15 Days Mental Health challenge</a></li>
+                <li><a href="counselor.html">Consult to our Counsellor</a></li>
+                <li><a href="boost.html">Boost your mental health</a></li>
+                <li><a href="chatbot.html">Chat with us</a></li>
+                <li><a href="login.php">Admin login</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+          </ul>
+        </div>
+        </nav> 
+        <div class="outline">
+        <h1>Boost your mental health</h1>
+        </div>
+        
+        <br>
+    <br>
+    <div id="boost">
+        <div class="tips"><h2>01. Track gratitude and achievement with a journal</h2> 
+            <p>Include 3 things you were grateful for and 3 things you were able to accomplish each day.</p>
+         </div> <br>
+        <div class="tips"><h2>02. Show some love to someone in your life</h2> 
+            <p>Close, quality, relationships are key for a happy, healthy life.</p>
+        <br> <br>
+        </div>
+        <div class="tips"><h2>03. Talk about your feelings</h2>
+        <p>Talking about your feelings can help you stay in good mental health and deal with times when you feel troubled.</p></div>
+        <br>
+        <div class="tips"><h2>04. Keep active</h2>
+        <p>Experts believe exercise releases chemicals in your brain that make you feel good. Regular exercise can boost your self-esteem and help you concentrate, sleep and feel better.Along with exercise you can also do yoga and meditation to relax your mind and free it from all the negative thoughts.</p></div>
+        <br>
+        <div class="tips"><h2>05. Keep in touch</h2>
+            <p>There’s nothing better than catching up with someone face to face, but that’s not always possible. You can also give them a call, drop them a note, or chat to them online instead. Keep the lines of communication open: it’s good for you!</p></div>
+        <br>
+        <div class="tips"><h2>06. Ask for help</h2>
+            <p>None of us are superhuman. We all sometimes get tired or overwhelmed by how we feel or when things don’t go to plan.
+
+         If things are getting too much for you and you feel you can’t cope, ask for help. Your family or friends may be able to offer practical help or a listening ear.<br>
+
+         Local services are there to help you.</p></div> <br>
+         <div class="tips"><h2>07. Take a break</h2>
+             <p>A change of scene or a change of pace is good for your mental health
+         <br>It could be a five-minute pause from cleaning your kitchen, a half-hour lunch break at work, or a weekend exploring somewhere new. A few minutes can be enough to de-stress you. Give yourself some ‘me time’.</p>
+
+         </div>
+         <br>
+         <div class="tips"><h2>
+                 08. Do something you are good at</h2>
+             <p>What do you love doing? What activities can you lose yourself in? What did you love doing in the past?
+         Enjoying yourself can help beat stress. Doing an activity you enjoy probably means you’re good at it, and achieving something boosts your self-esteem</p></div>
+         <br>
+         <div class="tips"><h2>
+                09. Accept who you are</h2><p>We’re all different. It’s much healthier to accept that you’re unique than to wish you were more like someone else. Feeling good about yourself boosts your confidence to learn new skills, visit new places and make new friends. Good self-esteem helps you cope when life takes a difficult turn.<p></<div>
+         <br>
+         <div class="tips"><h2>
+                10. Care for others</h2><p>‘Friends are really important… We help each other whenever we can, so it’s a two-way street, and supporting them uplifts me.’<p></div>
+         <br>
+
+    </div>
+
+    </body>
+</html>
+

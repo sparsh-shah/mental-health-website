@@ -1,0 +1,342 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
+        
+    </head>
+    <style>
+        
+        
+        body{
+    margin:0;
+    padding:0;
+    font-family: neo;
+    background-color: #DFDCE3;
+   
+}
+
+@font-face{
+    src: url("fonts/neo.ttf");
+    font-family: neo;
+    
+}
+
+
+.outline{
+    background-color: #E24E42;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.outline h1{
+    color: white;
+}
+
+
+  h1{
+      text-align: center;
+      color: black;
+      font-family: neo;
+      font-weight: bolder;
+      font-size: 70px;
+  }
+  
+  .navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 1600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+        
+    }
+
+    .navbar-links ul li {
+        text-align: left;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+       
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+ table{
+    position: absolute;
+	top: 290px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+   
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+    
+}
+
+h2{
+    text-align: center;
+      color: black;
+      font-family: neo;
+      font-weight: bolder;
+      font-size: 50px;
+}
+
+p{
+    text-align: center;
+      color: black;
+      font-family: neo;
+      font-weight: bolder;
+      font-size: 23px;
+}
+    </style>
+    <body>
+        <nav class="navbar">
+        <div class="brand-title">Smile</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="index.php">Home</a></li>
+                
+                <li><a href="helpline.html">Emergency helpline numbers</a></li>
+                <li><a href="faqs.html">How do we work</a></li>
+                <li><a href="challenge.html">15 Days Mental Health challenge</a></li>
+                <li><a href="counselor.html">Consult to our Counsellor</a></li>
+                <li><a href="boost.html">Boost your mental health</a></li>
+                <li><a href="chatbot.html">Chat with us</a></li>
+                <li><a href="login.php">Admin login</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+          </ul>
+        </div>
+        </nav> 
+        <div class="outline">
+        <h1>15 Days Mental Health challenge</h1>
+        </div>
+        <div class="table">
+        <table>
+            <tr>
+                <td>
+                    <h2>
+                        DAY 1
+                    </h2>
+                    <P>
+                        Do a deep breathing exercise.
+                    </P>
+                </td>
+            
+            
+        
+            
+                <td>
+                    <h2>
+                        DAY 2
+                    </h2>
+                    <P>
+                       Go for a morning walk.
+                    </P>
+                </td>
+            </div>
+            <td>
+                    <h2>
+                        DAY 3
+                    </h2>
+                    <P>
+                        Schedule something fun.
+                    </P>
+            </td>
+            </tr>
+            <tr>
+                <td>
+            
+                    <h2>
+                        DAY 4
+                    </h2>
+                    <P>
+                        Donate something you never use.
+                    </P>
+                </td>
+                <td>
+                    <h2>
+                        DAY 5
+                    </h2>
+                    <P>
+                       Do 30 minutes of yoga.
+                    </P>
+                </td>
+                <td>
+                    <h2>
+                        DAY 6
+                    </h2>
+                    <P>
+                        Plan to eat a healthy meal.
+                    </P>
+                </td>
+                </tr>
+            <tr> 
+                <td>
+                    <h2>
+                        DAY 7
+                    </h2>
+                    <P>
+                        Try to learn new hobby.
+                    </P>
+                </td>
+          
+                <td>
+                    <h2>
+                        DAY 8
+                    </h2>
+                    <P>
+                        Listen to your favourite music.
+                    </P>
+                </td>
+                <td>
+                    <h2>
+                        DAY 9
+                    </h2>
+                    <P>
+                        Watch your favourite movie.
+                    </P>
+                </td>
+            </tr>
+            
+            <tr>
+                <td> 
+                
+            
+                    <h2>
+                        DAY 10
+                    </h2>
+                    <P>
+                        Compliment someone.
+                    </P>
+                </td>
+                <td>
+                    <h2>
+                        DAY 11
+                    </h2>
+                    <P>
+                        Plan a day/night out with friends.
+                    </P>
+                </td>
+                <td>
+                    <h2>
+                        DAY 12
+                    </h2>
+                    <P>
+                        Try a 5 minute meditation.
+                    </P>
+                </td> 
+                
+            <tr>
+                <td>
+                    <h2>
+                        DAY 13
+                    </h2>
+                    <P>
+                       Have a phone free day.
+                    </P>
+                </td>
+                <td>
+                    <h2>
+                        DAY 14
+                    </h2>
+                    <P>
+                       FaceTime with your family.
+                    </P>
+                </td>
+                <td>
+                    <h2>
+                        DAY 15
+                    </h2>
+                    <P>
+                        Write something good about your life.
+                    </P>
+                </td>
+            </tr>
+        </table>
+        </div>
+    </body>
+</html>
